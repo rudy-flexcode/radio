@@ -37,7 +37,11 @@
 		currentId = station.id;
 		isBuffering = true;
 		try {
-			audio.src = station.stream;
+			const streamUrl = station.proxy
+				? `/api/stream?url=${encodeURIComponent(station.stream)}`
+				: station.stream;
+
+			audio.src = streamUrl;
 			await audio.play();
 		} catch (error) {
 			errorMessage = 'Lecture impossible. Verifie le lien du flux.';

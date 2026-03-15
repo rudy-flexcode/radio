@@ -4,6 +4,7 @@ export type Station = {
 	short: string;
 	description: string;
 	stream: string;
+	proxy?: boolean;
 	accent: string;
 };
 
@@ -29,7 +30,8 @@ export const stations: Station[] = [
 		name: 'Exo FM',
 		short: 'EXO',
 		description: 'Musique soleil',
-		stream: 'https://exofm.ice.infomaniak.ch/exofm-64.aac',
+		stream: 'http://exofm.ice.infomaniak.ch/exofm-64.aac',
+		proxy: true,
 		accent: '#22d3ee'
 	},
 	{
@@ -54,6 +56,7 @@ export const stations: Station[] = [
 		short: 'PKN',
 		description: 'Musique locale',
 		stream: 'https://sv3.vestaradio.com/RADIOPIKAN',
+		proxy: true,
 		accent: '#a3e635'
 	},
 	{
@@ -62,6 +65,7 @@ export const stations: Station[] = [
 		short: 'RS+',
 		description: 'Radio libre sud',
 		stream: 'http://srv1.coollabel-productions.com:8040/',
+		proxy: true,
 		accent: '#34d399'
 	},
 	{
