@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Radio Reunion">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="64" fill="#0b1120"/>
+  <circle cx="128" cy="128" r="70" fill="url(#g)" opacity="0.2"/>
+  <circle cx="128" cy="128" r="42" fill="url(#g)"/>
+  <circle cx="128" cy="128" r="18" fill="#0b1120"/>
+  <path d="M52 128c0-42 34-76 76-76" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M204 128c0 42-34 76-76 76" fill="none" stroke="#f97316" stroke-width="10" stroke-linecap="round"/>
+</svg>

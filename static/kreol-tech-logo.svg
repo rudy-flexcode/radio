@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="Kreol Tech">
+  <defs>
+    <linearGradient id="kt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="120" rx="28" fill="#0b1120"/>
+  <circle cx="60" cy="60" r="34" fill="url(#kt)"/>
+  <circle cx="60" cy="60" r="12" fill="#0b1120"/>
+  <path d="M24 60c0-20 16-36 36-36" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M96 60c0 20-16 36-36 36" fill="none" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <text x="120" y="70" fill="#e2e8f0" font-size="32" font-weight="700" font-family="Karla, Segoe UI, sans-serif" letter-spacing="2">
+    KREOL TECH
+  </text>
+</svg>
